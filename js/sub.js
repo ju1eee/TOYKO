@@ -109,6 +109,6 @@ window.onload = function() {
 
     setTimeout(function() {
         tokyoMap.style.opacity = '1';  // 2초 후에 이미지의 opacity 속성을 0으로 변경하여 이미지를 서서히 사라지게 합니다.
-    }, 2000);
+    }, 1000);
 };
 
