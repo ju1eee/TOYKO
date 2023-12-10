@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,viewport-fit=cover">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="shortcut icon" href="./img/favicon.ico">
+	<link rel="shortcut icon" href="#" type="image/x-icon" />
+	<meta name="description" content="도쿄 어디까지 가봤니?" />
+	<meta name="keywords" content="일본, 도쿄, 여행, 해외여행, 일본여행, 디즈니랜드">
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="도쿄, 어디까지 가봤니?" />
+	<meta property="og:description" content="도쿄, 어디까지 가봤니?" />
+	<meta property="og:image" content="./img/kakao_banner.png" />
+	<meta name="robots" content="INDEX,FOLLOW" />
+	<script src="./js/lib/gsap.min.js"></script>
+	<script src="./js/lib/ScrollTrigger.min.js"></script>
+	<script src="./js/lib/swiper-bundle.min.js"></script>
+	<script src="./js/lib/jquery.min.js"></script>
+	<link rel="stylesheet" href="./js/lib/swiper-bundle.min.css">
+	<link rel="stylesheet" href="./css/main.css">
+	<title>도쿄, 어디까지 가봤니?</title>
+</head>
+
+<body>
+	<div class="wrapper">
+
+		<div class="quick-wrap">
+			<div class="btn-quick">
+				<span class="airplane"></span>
+				<span class="btn-txt">관리자에게<br>문의하기</span>
+			</div>
+			<div class="txt">TALK TO US</div>
+		</div>
+
+
+		<header class="header">
+			<div class="wrap">
+				<a href="./index.html" class="logo ir">Tokyo</a>
+				<nav class="gnb">
+					<ul class="menu">
+						<li>ISSUE</li>
+						<li>FOOD</li>
+						<li>ACCOMMODATION</li>
+						<li>TOUR</li>
+					</ul>
+				</nav>
+
+				<div class="search-box header-search-box">
+					<div class="search">
+						<input type="text" placeholder="디즈니랜드 최저가">
+						<span class="btn-search ir">검색버튼</span>
+					</div>
+				</div>
+				<svg width="100%" height="1" viewBox="0 0 3000 1" fill="none" xmlns="http://www.w3.org/2000/svg"
+					class="header-path">
+					<rect width="100%" height="1" fill="#231815" />
+				</svg>
+			</div>
+		</header>
+
+
+		<div class="main-container">
+
+
+			<!-- intro section -->
+			<section class="intro-section">
+				<div class="intro-path">
+					<svg width="1" height="100%" viewBox="0 0 1 3202" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<rect width="1" height="100%" fill="#231815" />
+					</svg>
+				</div>
+				<div class="wrap">
+					<div class="content intro-copy-content">
+						<img src="./img/main/tokyoMap.png" class="tokyoMap">
+
+						<div class="txt-line copy brand"><span class="txt txt1">TOKYO</span></div>
+						<div class="txt-line copy txt-box"><span class="txt txt2"><strong>도쿄,</strong></span></div>
+						<div class="txt-line copy txt-box"><span class="txt txt3">어디까지 가봤니?</span></div>
+
+
+						<div class="search-box intro-search-box">
+							<div class="search">
+								<input id="dynamic-placeholder" type="text">
+								<span class="btn-search ir">검색버튼</span>
+							</div>
+						</div>
+
+
+					</div>
+				</div>
+				<div class="visual-wrap">
+					<div class="intro-visual-accordion">
+
+
+						<div class="panel panel0">
+							<div class="accordion-content">
+								<div class="head head0" data-index="0"><span class="txt">DISNEYLAND</span></div>
+								<div class="cont cont0"></div>
+								<div class="obj txt-wrap txt-wrap0">
+									<div class="txt-line brand"><span class="txt">DISNEYLAND</span></div>
+									<div class="txt-line"><span class="txt"><strong>도쿄 디즈니랜드</strong></span></div>
+									<div class="txt-line"><span class="txt">크리스마스 꿀팁 총정리🎄</span></div>
+								</div>
+								<div class="obj btn-group">
+									<button type="button" class="btn-arrow prev white ir" data-index="2"></button>
+									<button type="button" class="btn-arrow next white ir" data-index="1"></button>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="panel panel1">
+							<div class="accordion-content">
+								<div class="head head1" data-index="1"><span class="txt">SHIBUYA SKY</span></div>
+								<div class="cont cont1"></div>
+								<div class="obj txt-wrap txt-wrap1">
+									<div class="txt-line brand"><span class="txt">SHIBUYA SKY</span></div>
+									<div class="txt-line"><span class="txt"><strong>도쿄의 랜드마크가 내려다보이는</strong></span>
+									</div>
+									<div class="txt-line"><span class="txt">해방감 넘치는 전망 공간 ☁️</span></div>
+								</div>
+								<div class="obj btn-group">
+									<button type="button" class="btn-arrow prev white ir" data-index="0"></button>
+									<button type="button" class="btn-arrow next white ir" data-index="2"></button>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="panel panel2">
+							<div class="accordion-content">
+								<div class="head head2" data-index="2"><span class="txt">YOYOGI PARK</span></div>
+								<div class="cont cont2"></div>
+								<div class="obj txt-wrap txt-wrap2">
+									<div class="txt-line brand"><span class="txt">YOYOGI PARK</span></div>
+									<div class="txt-line"><span class="txt">힐링을 원한다면</span></div>
+									<div class="txt-line"><span class="txt"><strong>요요기 공원으로 🌳</strong></span></div>
+								</div>
+								<div class="obj btn-group">
+									<button type="button" class="btn-arrow prev white ir" data-index="1"></button>
+									<button type="button" class="btn-arrow next white ir" data-index="0"></button>
+								</div>
+							</div>
+						</div>
+
+
+					</div>
+				</div>
+			</section>
+			<!--// intro section -->
+
+			<!-- food section -->
+			<section class="food-section">
+				<svg width="100%" height="1" viewBox="0 0 3000 1" fill="none" xmlns="http://www.w3.org/2000/svg"
+					class="food-path1">
+					<rect width="100%" height="1" fill="#231815" />
+				</svg>
+				<svg width="3000" height="1044" viewBox="0 0 3000 1044" fill="none" xmlns="http://www.w3.org/2000/svg"
+					class="food-path2">
+					<rect width="1" height="396" fill="#231815" class="rect1" />
+					<path d="M0.499972 395.5C0.499981 616.509 132.725 1043.5 663.5 1043.5" stroke="#231815" />
+					<rect x="664" y="1043" width="2000" height="1" fill="#231815" class="rect2" />
+				</svg>
+				<div class="food-wrap">
+					<div class="food-info">
+						<ul class="tab-menu">
+							<li class="tab is-active"><span class="txt">BEST</span></li>
+						</ul>
+						<div class="title">2023 최고<br>핫플 음식점</div>
+						<div class="btn-group">
+							<button type="button" class="btn-arrow prev black ir"></button>
+							<button type="button" class="btn-arrow next black ir"></button>
+						</div>
+					</div>
+
+					<div class="food-swiper">
+						<div class="swiper-wrapper">
+
+							<div class="swiper-slide food-slide0 food-slide" data-index="0">
+								<div class="wrap">
+									<a href="#" target="_blank" class="img-wrap">
+										<div class="img img-off slide0-off"></div>
+										<div class="img img-on slide0-on"></div>
+									</a>
+									<div class="info-wrap">
+										<div class="inner">
+											<span class="eng-name">RedRock Harajuku</span>
+											<span class="name">하라주쿠 레드락</span>
+											<div class="desc">
+												도쿄 메트로 메이지진구마에 역에서 도보 약 5분 거리에 점포를 둔 로스트 비프 덮밥과 아메리칸 비프를 즐길 수 있는 음식점.
+											</div>
+											<div class="btn-group">
+												<a href="#" class="btn-detail">자세히 보기</a>
+											</div>
+											<span class="icon-share ir">공유하기</span>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+							<div class="swiper-slide food-slide1 food-slide" data-index="1">
+								<div class="wrap">
+									<a href="#" target="_blank" class="img-wrap">
+										<div class="img img-off slide1-off"></div>
+										<div class="img img-on slide1-on"></div>
+									</a>
+									<div class="info-wrap">
+										<div class="inner">
+											<span class="eng-name">Imakatsu, Ginza</span>
+											<span class="name">긴자 이마카츠</span>
+											<div class="desc">
+												이마카츠는 아카사카와 긴자에 위치한 튀김 전문점으로, 미슐랭 가이드 도쿄에 선정된 명점.
+											</div>
+											<div class="btn-group">
+												<a href="#" class="btn-detail">자세히 보기</a>
+											</div>
+											<span class="icon-share ir">공유하기</span>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+							<div class="swiper-slide food-slide2 food-slide" data-index="2">
+								<div class="wrap">
+									<a href="#" target="_blank" class="img-wrap">
+										<div class="img img-off slide2-off"></div>
+										<div class="img img-on slide2-on"></div>
+									</a>
+									<div class="info-wrap">
+										<div class="inner">
+											<span class="eng-name">Udon Shin</span>
+											<span class="name">우동 신</span>
+											<div class="desc">
+												사누키우동을 판매하고있으며 현지에서도 맛집으로 유명한 가게라고 한다.사누키우동이란 굵고 매끈한 면발로 유명한 우동이며 국물보다는
+												면발 맛으로 먹는 우동이다.
+											</div>
+											<div class="btn-group">
+												<a href="#" class="btn-detail">자세히 보기</a>
+											</div>
+											<span class="icon-share ir">공유하기</span>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+							<div class="swiper-slide food-slide3 food-slide" data-index="3">
+								<div class="wrap">
+									<a href="#" target="_blank" class="img-wrap">
+										<div class="img img-off slide3-off"></div>
+										<div class="img img-on slide3-on"></div>
+									</a>
+									<div class="info-wrap">
+										<div class="inner">
+											<span class="eng-name">BAY WHITE</span>
+											<span class="name">몬자 쿠우야</span>
+											<div class="desc">
+												도쿄 몬자야끼 거리에 있는 츠키시마 몬자 쿠우야이다. 대표 메뉴는 명란과 떡이 들어간 멘타이코 모찌 몬자, 오징어와 먹물을 활용한
+												이까쿠로 몬자, 해산물이 듬뿍 들어간 몬자야끼 등이다.
+											</div>
+											<div class="btn-group">
+												<a href="#" class="btn-detail">자세히 보기</a>
+											</div>
+											<span class="icon-share ir">공유하기</span>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="swiper-slide food-slide0 food-slide" data-index="0">
+								<div class="wrap">
+									<a href="#" target="_blank" class="img-wrap">
+										<div class="img img-off slide0-off"></div>
+										<div class="img img-on slide0-on"></div>
+									</a>
+									<div class="info-wrap">
+										<div class="inner">
+											<span class="eng-name">RedRock Harajuku</span>
+											<span class="name">하라주쿠 레드락</span>
+											<div class="desc">
+												도쿄 메트로 메이지진구마에 역에서 도보 약 5분 거리에 점포를 둔 로스트 비프 덮밥과 아메리칸 비프를 즐길 수 있는 음식점.
+											</div>
+											<div class="btn-group">
+												<a href="#" class="btn-detail">자세히 보기</a>
+											</div>
+											<span class="icon-share ir">공유하기</span>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+							<div class="swiper-slide food-slide1 food-slide" data-index="1">
+								<div class="wrap">
+									<a href="#" target="_blank" class="img-wrap">
+										<div class="img img-off slide1-off"></div>
+										<div class="img img-on slide1-on"></div>
+									</a>
+									<div class="info-wrap">
+										<div class="inner">
+											<span class="eng-name">Imakatsu, Ginza</span>
+											<span class="name">긴자 이마카츠</span>
+											<div class="desc">
+												이마카츠는 아카사카와 긴자에 위치한 튀김 전문점으로, 미슐랭 가이드 도쿄에 선정된 명점.
+											</div>
+											<div class="btn-group">
+												<a href="#" class="btn-detail">자세히 보기</a>
+											</div>
+											<span class="icon-share ir">공유하기</span>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+							<div class="swiper-slide food-slide2 food-slide" data-index="2">
+								<div class="wrap">
+									<a href="#" target="_blank" class="img-wrap">
+										<div class="img img-off slide2-off"></div>
+										<div class="img img-on slide2-on"></div>
+									</a>
+									<div class="info-wrap">
+										<div class="inner">
+											<span class="eng-name">Udon Shin</span>
+											<span class="name">우동 신</span>
+											<div class="desc">
+												사누키우동을 판매하고있으며 현지에서도 맛집으로 유명한 가게라고 한다.사누키우동이란 굵고 매끈한 면발로 유명한 우동이며 국물보다는
+												면발 맛으로 먹는 우동이다.
+											</div>
+											<div class="btn-group">
+												<a href="#" class="btn-detail">자세히 보기</a>
+											</div>
+											<span class="icon-share ir">공유하기</span>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+							<div class="swiper-slide food-slide3 food-slide" data-index="3">
+								<div class="wrap">
+									<a href="#" target="_blank" class="img-wrap">
+										<div class="img img-off slide3-off"></div>
+										<div class="img img-on slide3-on"></div>
+									</a>
+									<div class="info-wrap">
+										<div class="inner">
+											<span class="eng-name">BAY WHITE</span>
+											<span class="name">몬자 쿠우야</span>
+											<div class="desc">
+												도쿄 몬자야끼 거리에 있는 츠키시마 몬자 쿠우야이다. 대표 메뉴는 명란과 떡이 들어간 멘타이코 모찌 몬자, 오징어와 먹물을 활용한
+												이까쿠로 몬자, 해산물이 듬뿍 들어간 몬자야끼 등이다.
+											</div>
+											<div class="btn-group">
+												<a href="#" class="btn-detail">자세히 보기</a>
+											</div>
+											<span class="icon-share ir">공유하기</span>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+
+
+
+
+						</div>
+					</div>
+
+				</div>
+			</section>
+			<!--// food section -->
+
+			<!-- accommodation section -->
+			<section class="accommodation-section">
+				<svg width="3000" height="1149" viewBox="0 0 840 1149" fill="none" xmlns="http://www.w3.org/2000/svg"
+					class="accommodation-path1">
+					<rect width="1" height="501" transform="matrix(-1 0 0 1 1920 0)" fill="#231815" class="rect1" />
+					<path d="M1919.5 500.5C1919.5 721.509 1787.28 1148.5 1256.5 1148.5" stroke="#231815" />
+					<rect width="2000" height="1" transform="matrix(-1 0 0 1 1257 1148)" fill="#231815" class="rect2" />
+				</svg>
+
+				<svg width="1" height="1500" viewBox="0 0 1 1500" fill="none" xmlns="http://www.w3.org/2000/svg"
+					class="accommodation-path2">
+					<rect width="1" height="1500" fill="#231815" />
+				</svg>
+
+				<div class="visual-wrap">
+					<div class="visual"></div>
+				</div>
+				<div class="title-wrap">
+					<div class="sub txt-line"><span class="txt">숙소도 빼먹을 수 없겠죠? 😎</span></div>
+					<div class="txt-line">
+						<div class="txt main ir">ACCOMMODATION</div>
+					</div>
+					<div class="btn-group">
+						<span class="btn-experience">호텔 찾기</span>
+						<span class="btn-experience booking">빠른 예약</span>
+					</div>
+				</div>
+				<div class="cont-wrap">
+					<div class="head txt-line"><span class="txt">도쿄 숙소 위치 추천 기준</span></div>
+					<div class="body">
+						<div class="item ir item1">공항 이동 편의성</div>
+						<div class="item ir item2">예산의 여유 + 교통 최고</div>
+						<div class="item ir item3">저렴한 호텔</div>
+						<div class="item ir item4">지하철 노선</div>
+						<div class="item ir item5">역에서 10분이내</div>
+						<div class="item ir item6">10만원대 가성비</div>
+						<div class="item ir item7">지하철 환승이 없는</div>
+						<div class="item ir item8">도쿄여행이 처음</div>
+					</div>
+				</div>
+			</section>
+			<!--// accommodation section -->
+
+			<!-- hotel section -->
+			<section class="hotel-section">
+				<svg width="100%" height="1" viewBox="0 0 3000 1" fill="none" xmlns="http://www.w3.org/2000/svg"
+					class="hotel-path1">
+					<rect width="100%" height="1" fill="#231815" />
+				</svg>
+				<div class="hotel-swiper">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide hotel-slide">
+							<div class="item slide1">
+								<span class="cover ir cover1">JR 이스트 호텔 메츠 시부야</span>
+							</div>
+						</div>
+						<div class="swiper-slide hotel-slide">
+							<div class="item slide2">
+								<span class="cover ir cover2">소테츠 프레사 인 긴자 나나초메, 도쿄</span>
+							</div>
+						</div>
+						<div class="swiper-slide hotel-slide">
+							<div class="item slide3">
+								<span class="cover ir cover3">슈퍼 호텔 프리미어 긴자, 도쿄</span>
+							</div>
+						</div>
+						<div class="swiper-slide hotel-slide">
+							<div class="item slide4">
+								<span class="cover ir cover4">신주쿠 워싱턴 호텔 도쿄 메인, 도쿄</span>
+							</div>
+						</div>
+						<div class="swiper-slide hotel-slide">
+							<div class="item slide5">
+								<span class="cover ir cover5">신주쿠 그란벨 호텔</span>
+							</div>
+						</div>
+						<div class="swiper-slide hotel-slide">
+							<div class="item slide6">
+								<span class="cover ir cover6">슈퍼 호텔 프리미어 아카사카, 도쿄</span>
+							</div>
+						</div>
+						<div class="swiper-slide hotel-slide">
+							<div class="item slide7">
+								<span class="cover ir cover7">소테츠 그랜드 프레사 다카다노바바</span>
+							</div>
+						</div>
+						<div class="swiper-slide hotel-slide">
+							<div class="item slide8">
+								<span class="cover ir cover8">베셀 인 다카다노바바</span>
+							</div>
+						</div>
+						<div class="swiper-slide hotel-slide">
+							<div class="item slide9">
+								<span class="cover ir cover9">미야코 시티 도쿄 타카나와</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<svg width="100%" height="1" viewBox="0 0 3000 1" fill="none" xmlns="http://www.w3.org/2000/svg"
+					class="hotel-path2">
+					<rect width="100%" height="1" fill="#231815" />
+				</svg>
+			</section>
+			<!--// hotel section -->
+
+
+			<!-- tour section -->
+			<section class="tour-section">
+				<svg width="1" height="201" viewBox="0 0 1 201" fill="none" xmlns="http://www.w3.org/2000/svg"
+					class="tour-path1">
+					<rect width="1" height="201" fill="#231815" />
+				</svg>
+				<svg width="1" height="1850" viewBox="0 0 1 1850" fill="none" xmlns="http://www.w3.org/2000/svg"
+					class="tour-path2">
+					<rect width="1" height="1850" fill="#231815" />
+				</svg>
+				<div class="top-section">
+					<svg width="100%" height="1" viewBox="0 0 3000 1" fill="none" xmlns="http://www.w3.org/2000/svg"
+						class="tour-path3">
+						<rect width="100%" height="1" fill="#231815" />
+					</svg>
+					<div class="title-box">
+						<div>여행 코스를 <br> 한눈에! 👀</div>
+						<div class="btn-group">
+							<button type="button" class="btn-arrow ir prev black">이전</button>
+							<button type="button" class="btn-arrow ir next black">다음</button>
+						</div>
+					</div>
+					<div class="tour-swiper">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide tour-slide slide1"></div>
+							<div class="swiper-slide tour-slide slide2"></div>
+							<div class="swiper-slide tour-slide slide3"></div>
+							<div class="swiper-slide tour-slide slide4"></div>
+							<div class="swiper-slide tour-slide slide5"></div>
+							<div class="swiper-slide tour-slide slide6"></div>
+							<div class="swiper-slide tour-slide slide7"></div>
+							<div class="swiper-slide tour-slide slide8"></div>
+							<div class="swiper-slide tour-slide slide9"></div>
+							<div class="swiper-slide tour-slide slide10"></div>
+						</div>
+					</div>
+				</div>
+				<div class="bot-section">
+					<svg width="100%" height="1" viewBox="0 0 3000 1" fill="none" xmlns="http://www.w3.org/2000/svg"
+						class="sns-path1">
+						<rect width="100%" height="1" fill="#231815" />
+					</svg>
+					<svg width="1" height="700" viewBox="0 0 1 700" fill="none" xmlns="http://www.w3.org/2000/svg"
+						class="sns-path2">
+						<rect width="1" height="700" fill="#231815" />
+					</svg>
+					<svg width="92" height="98" viewBox="0 0 92 98" fill="none" xmlns="http://www.w3.org/2000/svg"
+						class="sns-path3">
+						<rect x="-6.75391" y="97.1973" width="137.457" height="1"
+							transform="rotate(-45 -6.75391 97.1973)" fill="#231815" />
+					</svg>
+					<svg width="92" height="98" viewBox="0 0 92 98" fill="none" xmlns="http://www.w3.org/2000/svg"
+						class="sns-path4">
+						<rect x="-6.75391" y="97.1973" width="137.457" height="1"
+							transform="rotate(-45 -6.75391 97.1973)" fill="#231815" />
+					</svg>
+					<div class="sns-wrap">
+						<div class="sns-title">실제 사용자들이 남긴 포토후기! 📷</div>
+						<div class="btn-group">
+							<button type="button" class="btn-arrow small ir prev black">이전</button>
+							<button type="button" class="btn-arrow small ir next black">다음</button>
+						</div>
+						<div class="sns-swiper">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide sns-slide slide1"></div>
+								<div class="swiper-slide sns-slide slide2"></div>
+								<div class="swiper-slide sns-slide slide3"></div>
+								<div class="swiper-slide sns-slide slide4"></div>
+								<div class="swiper-slide sns-slide slide5"></div>
+								<div class="swiper-slide sns-slide slide6"></div>
+								<div class="swiper-slide sns-slide slide7"></div>
+								<div class="swiper-slide sns-slide slide8"></div>
+								<div class="swiper-slide sns-slide slide9"></div>
+								<div class="swiper-slide sns-slide slide10"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!--// tour section -->
+
+
+		</div>
+
+
+		<footer class="footer">
+			<div class="utils">
+				<span>정보 수정 요청 ✍🏻</span>
+				<span>자세한 내용 보러가기 💼</span>
+				<span>관리자에게 문의하기 ✓</span>
+			</div>
+			<div class="wrap">
+				<div class="talktous ir">Talk to us</div>
+				<div class="info">
+					<div class="copyright if"></div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="./js/main.js"></script>
+	<script src="./js/sub.js"></script>
+
+</body>
+
+</html>
