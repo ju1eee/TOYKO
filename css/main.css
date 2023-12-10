@@ -1560,7 +1560,7 @@ body.sticky-section {
     background-position: 0 0;
     background-repeat: no-repeat;
     cursor: pointer;
-    background-size: cover;
+    background-size: contain;
     margin-left: -100px;
 }
 
